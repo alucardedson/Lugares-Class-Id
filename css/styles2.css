@@ -1,0 +1,84 @@
+body {
+    background-image: radial-gradient(circle at 100% 0%, #ff87b6 0, #ff7ebc 8.33%, #ff75c2 16.67%, #f86cc8 25%, #e864cd 33.33%, #d55cd3 41.67%, #be55d8 50%, #a250dd 58.33%, #814fe2 66.67%, #534fe7 75%, #0051ec 83.33%, #0054ef 91.67%, #0056f1 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 280vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      color: rgb(255, 255, 255);
+      text-align: center;
+    }
+     
+    h1 {
+      color: rgb(255, 255, 255);
+      text-align: center;
+      
+    }
+    
+    p {
+      color: rgb(255, 255, 255);
+      font-family: verdana;
+      font-size: 20px;
+    }
+    
+    .estilocabecalho {
+      margin: 0 auto;
+    }
+    
+    
+    header:hover{
+      cursor: pointer;
+      color: rgb(227, 15, 15);
+    }
+     
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+       border-radius: 5px;
+    }
+    
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    img {
+      border-radius: 5px 5px 0 0;
+    }
+    
+    .container {
+      padding: 2px 16px;
+    }
+    .img-size{
+      width: 680px;
+      height: auto;
+    }
+    
+    .links a:hover {
+      color: #ffffff;
+    }
+    
+    .links {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-image: radial-gradient(circle at 100% 0%, #ff87b6 0, #ff7ebc 8.33%, #ff75c2 16.67%, #f86cc8 25%, #e864cd 33.33%, #d55cd3 41.67%, #be55d8 50%, #a250dd 58.33%, #814fe2 66.67%, #534fe7 75%, #0051ec 83.33%, #0054ef 91.67%, #0056f1 100%);
+      padding: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      z-index: 1000; /* Isso coloca os links em cima de outros elementos */
+    }
+    
+    .links a {
+      margin-right: 30px;
+      text-decoration: none;
+      color: #000000;
+      font-weight: bold;
+    }
+    
+    
+    
